@@ -103,7 +103,7 @@ def karatsuba(x, y):
 
 #### Grafo de Fluxo de Controle
 
-![Grafo de representação Karatsuba](IMG/Graph_Karatsuba.png)
+![Grafo de representação Karatsuba](Img/Graph_Karatsuba.png)
 
 #### Estrutura do Grafo
 - **Nós (N):** 10
@@ -208,7 +208,7 @@ Speedup: 3x
 
 ## Diagrama de Fluxo Visual
 
-![Fluxo de Karatsuba](IMG/Fluxo_Karatsuba.png)
+![Fluxo de Karatsuba](Img/Fluxo_Karatsuba.png)
 
 ## 🛠️ Otimizações Implementadas
 
