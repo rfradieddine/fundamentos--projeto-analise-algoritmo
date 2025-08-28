@@ -30,7 +30,6 @@ python main.py
 O programa apresentará um menu interativo com as seguintes opções:
 - Testes automáticos
 - Demonstração passo a passo
-- Benchmark comparativo
 - Multiplicação personalizada
 
 ## Lógica do Algoritmo
@@ -215,13 +214,3 @@ Speedup: 3x
 1. **Caso Base Otimizado:** Multiplicação direta para números < 10
 2. **Reutilização de Cálculos:** ac e bd são calculados uma vez e reutilizados
 3. **Redução de Multiplicações:** De 4 para 3 multiplicações recursivas
-
-## 📚 Conclusão
-
-O Algoritmo de Karatsuba representa um avanço significativo na multiplicação de inteiros grandes, oferecendo:
-
-- **Eficiência Superior:** Complexidade O(n^1.585) vs O(n²) tradicional
-- **Escalabilidade:** Ganhos crescentes com o tamanho dos números
-- **Base Teórica:** Princípio divide-and-conquer aplicado elegantemente
-
-A implementação demonstra claramente como técnicas algorítmicas avançadas podem resultar em melhorias substanciais de desempenho, especialmente em aplicações que envolvem criptografia, computação científica e processamento de números grandes.
